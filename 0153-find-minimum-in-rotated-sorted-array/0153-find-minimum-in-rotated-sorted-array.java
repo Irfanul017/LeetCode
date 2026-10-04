@@ -13,7 +13,7 @@ class Solution {
                 left = mid + 1;
             }
             else{
-                min = Math.min(nums[right] , nums[mid]);
+                min = Math.min(min , nums[mid]);
                 right = mid - 1;
             }
 
